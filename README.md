@@ -4,10 +4,15 @@
 [//]: # [![Codabench](http://img.shields.io/badge/Codabench-microbELP_benchmark-2C3F4C.svg)](https://www.codabench.org/competitions/10913/)  
 -->
 
-# CoDietCorpus
-Code repository for the creation and annotation of corpora in the CoDiet project
+---
 
-# Used the following repositories
+# CoDietCorpus
+Code repository for the creation and annotation of corpora in the CoDiet project.
+
+---
+
+## Used the following repositories
+
 - [cadmus](https://github.com/biomedicalinformaticsgroup/cadmus)<a href="https://github.com/biomedicalinformaticsgroup/cadmus"><img src="https://img.shields.io/github/stars/biomedicalinformaticsgroup/cadmus.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
 - [Auto-CORPus](https://github.com/omicsNLP/Auto-CORPus)<a href="https://github.com/omicsNLP/Auto-CORPus"><img src="https://img.shields.io/github/stars/omicsNLP/Auto-CORPus.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
 - [BERN2](https://github.com/dmis-lab/BERN2)<a href="https://github.com/dmis-lab/BERN2"><img src="https://img.shields.io/github/stars/dmis-lab/BERN2.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
@@ -15,3 +20,25 @@ Code repository for the creation and annotation of corpora in the CoDiet project
 - [TABoLiSTM](https://github.com/omicsNLP/MetaboliteNER)<a href="https://github.com/omicsNLP/MetaboliteNER"><img src="https://img.shields.io/github/stars/omicsNLP/MetaboliteNER.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
 - [eNzymER](https://github.com/omicsNLP/enzymeNER)<a href="https://github.com/omicsNLP/enzymeNER"><img src="https://img.shields.io/github/stars/omicsNLP/enzymeNER.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
 - [microbELP](https://github.com/omicsNLP/microbELP)<a href="https://github.com/omicsNLP/microbELP"><img src="https://img.shields.io/github/stars/omicsNLP/microbELP.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
+
+---
+
+## 👥 Code Contributors
+
+<p align="center">
+  <kbd>
+    <a href="https://github.com/Antoinelfr">
+      <img src="https://drive.google.com/uc?id=1FH6XRJuam6eMuCzwWXBAIdDacIw8PFiu" width="90" height="90" style="border-radius:50%;">
+    </a><br>
+    👉 <strong><a href="https://github.com/Antoinelfr" style="text-decoration:none; color:inherit;">Antoine</a></strong>
+  </kbd>
+  &nbsp;&nbsp;
+  <kbd>
+    <a href="https://github.com/jmp111">
+      <img src="https://drive.google.com/uc?id=1kgEK2yqJG-eQnHGYDUH7mL2QeLtar2ZC" width="90" height="90" style="border-radius:50%;">
+    </a><br>
+    👉 <strong><a href="https://github.com/jmp111" style="text-decoration:none; color:inherit;">Joram</a></strong>
+  </kbd>
+</p>
+
+---
