@@ -1,0 +1,100 @@
+﻿Entity,Identifier
+adolescent,CoDiet_P1_1
+adolescents,CoDiet_P1_2
+adult,CoDiet_P1_3
+adults,CoDiet_P1_4
+child,CoDiet_P1_5
+children,CoDiet_P1_6
+cohort,CoDiet_P1_7
+cohorts,CoDiet_P1_8
+healthy controls,CoDiet_P1_9
+human,NCBI:txid9606
+humans,NCBI:txid9606
+individuals,CoDiet_P1_12
+infant,CoDiet_P1_13
+infants,CoDiet_P1_14
+men,NCBI:txid9606
+neonatal,CoDiet_P1_16
+newborn,CoDiet_P1_17
+new-born,CoDiet_P1_18
+participant,NCBI:txid9606
+participants,NCBI:txid9606
+patient,NCBI:txid9606
+patients,NCBI:txid9606
+people,NCBI:txid9606
+person,NCBI:txid9606
+persons,NCBI:txid9606
+population,CoDiet_P1_26
+populations,CoDiet_P1_27
+subjects,CoDiet_P1_28
+volunteer,NCBI:txid9606
+volunteers,NCBI:txid9606
+women,NCBI:txid9606
+animal model,NCBI:txid33208
+animals,NCBI:txid33208
+Bos taurus,NCBI:txid9913
+Caenorhabditis,NCBI:txid6237
+Canis familiaris,NCBI:txid9615
+Capra hircus,NCBI:txid9925
+cat,NCBI:txid9685
+cats,NCBI:txid9685
+cattle,NCBI:txid9913
+Cavia porcellus,NCBI:txid10141
+cerevisiae,NCBI:txid4932
+chicken,NCBI:txid9031
+chickens,NCBI:txid9031
+chinchilla,NCBI:txid10152
+Coturnix,NCBI:txid9090
+cow,NCBI:txid9913
+Danio rerio,NCBI:txid7955
+dog,NCBI:txid9615
+dogs,NCBI:txid9615
+Drosophila,NCBI:txid7215
+elegans,NCBI:txid6239
+Equus,NCBI:txid9789
+farm animal,CoDiet_P2_23
+Felis catus,NCBI:txid9685
+fish,CoDiet_P2_25
+fruit fly,NCBI:txid7215
+Gallus domesticus,NCBI:txid9031
+gerbil,NCBI:txid10045
+goat,NCBI:txid9925
+goats,NCBI:txid9925
+hamster,NCBI:txid10028
+hamsters,NCBI:txid10028
+horse,NCBI:txid9796
+horses,NCBI:txid9796
+macaque,NCBI:txid9539
+macaques,NCBI:txid9539
+Meriones,NCBI:txid10046
+Mesocricetus,NCBI:txid10035
+mice,NCBI:txid10090
+mouse,NCBI:txid10090
+Mus musculus,NCBI:txid10090
+Myomorpha,NCBI:txid1963758
+nematode,NCBI:txid6231
+Oryctolagus cuniculus,NCBI:txid9986
+Ovis aries,NCBI:txid9940
+pig,NCBI:txid9823
+piglet,NCBI:txid9823
+piglets,NCBI:txid9823
+pigs,NCBI:txid9823
+primate,NCBI:txid9443
+primates,NCBI:txid9443
+quail,NCBI:txid9090
+rabbit,NCBI:txid9986
+rabbits,NCBI:txid9986
+rat,NCBI:txid10116
+rats,NCBI:txid10116
+Rattus norvegicus,NCBI:txid10116
+Rhesus,NCBI:txid9544
+rodent,NCBI:txid9989
+Rodentia,NCBI:txid9989
+roundworm,NCBI:txid6231
+Saccharomyces,NCBI:txid4930
+sheep,NCBI:txid9940
+Sus scrofa,NCBI:txid9823
+transgenic,CoDiet_P2_65
+xenograft,CoDiet_P2_66
+yeast,NCBI:txid4932
+zebrafish,NCBI:txid7955

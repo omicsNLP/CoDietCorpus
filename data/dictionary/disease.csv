@@ -1,0 +1,225 @@
+﻿Entity,Identifier
+cardiometabolic syndrome,CoDiet_A0_1
+cardiometabolic syndromes,CoDiet_A0_2
+insulin resistance syndrome,CoDiet_A0_3
+metabolic cardiovascular syndrome,CoDiet_A0_4
+metabolic syndrome,MESH:D024821
+MetS,MESH:D024821
+syndrome X,MESH:D024821
+fasting insulin,CoDiet_A1_1
+HOMA-IR,CoDiet_A1_2
+lowered insulin sensitivity,CoDiet_A1_3
+insulin resistance,MESH:D003924
+insulin resistant,CoDiet_A1_5
+insulin sensitivity,CoDiet_A1_6
+insulin tolerance,CoDiet_A1_7
+abdominal girth,CoDiet_A2_1
+abdominal obesity,CoDiet_A2_2
+anthropometry,CoDiet_A2_3
+body composition,CoDiet_A2_4
+body fat distribution,CoDiet_A2_5
+Body Mass Index,CoDiet_A2_6
+BMI,CoDiet_A2_7
+body weight,CoDiet_A2_8
+body weight reduction,CoDiet_A2_9
+central fat distribution,CoDiet_A2_10
+central obesity,CoDiet_A2_11
+elevated waist circumference,CoDiet_A2_12
+fat mass,CoDiet_A2_13
+fat mass percentage,CoDiet_A2_14
+high body mass index,CoDiet_A2_15
+increase in body mass index,CoDiet_A2_16
+obese,MESH:D009765
+obesity,MESH:D009765
+overweight,CoDiet_A2_19
+reduce body weight,CoDiet_A2_20
+skinfold thickness,CoDiet_A2_21
+trunk fat percentage,CoDiet_A2_22
+visceral fat,CoDiet_A2_23
+waist-hip ratio,CoDiet_A2_24
+waist-to-hip ratio,CoDiet_A2_25
+waist circumference,CoDiet_A2_26
+waist circumferences,CoDiet_A2_27
+WC,CoDiet_A2_28
+weight control,CoDiet_A2_29
+weight gain,CoDiet_A2_30
+weight loss,CoDiet_A2_31
+weight maintenance,CoDiet_A2_32
+weight reduction,CoDiet_A2_33
+altered lipoproteins,CoDiet_A3_1
+cholesterol efflux,CoDiet_A3_2
+dislipidemia,MESH:D008052
+dyslipidemia,MESH:D008052
+dyslipidaemia,MESH:D008052
+dyslipoproteinemia,MESH:D007009
+dyslipoproteinaemia,MESH:D007009
+elevated blood lipids,CoDiet_A3_8
+elevated cholesterol,CoDiet_A3_9
+elevated triglycerides,CoDiet_A3_10
+HDL-cholesterol,CoDiet_A3_11
+HDL cholesterol,CoDiet_A3_12
+HDL-C,CoDiet_A3_13
+high cholesterol,CoDiet_A3_14
+high triglycerides,CoDiet_A3_15
+hypercholesterolemia,CoDiet_A3_16
+hyperlipidemia,CoDiet_A3_17
+hyperlipidaemia,CoDiet_A3_18
+hyperlipoproteinemia,CoDiet_A3_19
+hypertriglyceridemia,CoDiet_A3_20
+LDL-C,CoDiet_A3_21
+lipid abnormalities,CoDiet_A3_22
+lipid homeostasis,CoDiet_A3_23
+lipids,CoDiet_A3_24
+raised plasma lipids,CoDiet_A3_25
+reduced HDL-C,CoDiet_A3_26
+triacylglycerol,CoDiet_A3_27
+triglyceride,CoDiet_A3_28
+triglycerides,CoDiet_A3_29
+TG,CoDiet_A3_30
+VLDL cholesterol,CoDiet_A3_31
+blood pressure,CoDiet_A4_1
+elevated blood pressure,CoDiet_A4_2
+elevated BP,CoDiet_A4_3
+high blood pressure,CoDiet_A4_4
+hypertension,MESH:D006973
+increased blood pressure,CoDiet_A4_6
+prehypertension,CoDiet_A4_7
+raised blood pressure,CoDiet_A4_8
+reduce blood pressure,CoDiet_A4_9
+abnormal glucose,CoDiet_A5_1
+blood glucose,CoDiet_A5_2
+dysglycemia,CoDiet_A5_3
+dysglycaemia,CoDiet_A5_4
+elevated fasting glucose,CoDiet_A5_5
+fasting blood glucose,CoDiet_A5_6
+fasting glucose,CoDiet_A5_7
+fasting plasma glucose,CoDiet_A5_8
+glucose metabolism,CoDiet_A5_9
+glucose response,CoDiet_A5_10
+glycaemia,CoDiet_A5_11
+glycemia,CoDiet_A5_12
+glycemic control,CoDiet_A5_13
+glycaemic control,CoDiet_A5_14
+glycaemic response,CoDiet_A5_15
+glycemic response,CoDiet_A5_16
+glycated haemoglobin,CoDiet_A5_17
+glycated hemoglobin,CoDiet_A5_18
+haemoglobin A1C,CoDiet_A5_19
+hemoglobin A1C,CoDiet_A5_20
+HbA1C,CoDiet_A5_21
+hyperglycaemia,MESH:D006943
+hyperglycemia,MESH:D006943
+impaired fasting glucose,CoDiet_A5_24
+IFG,CoDiet_A5_25
+impaired glucose,CoDiet_A5_26
+impaired glucose disposal,CoDiet_A5_27
+impaired glucose tolerance,CoDiet_A5_28
+IGT,CoDiet_A5_29
+increased blood glucose,CoDiet_A5_30
+oral glucose tolerance test,CoDiet_A5_31
+OGTT,CoDiet_A5_32
+raised plasma glucose,CoDiet_A5_33
+microalbuminuria,CoDiet_A6_1
+diabetes,MESH:D003920
+diabetes mellitus,MESH:D003920
+DM,MESH:D003920
+T2D,MESH:D003924
+T2DM,MESH:D003924
+type 2 diabetes,MESH:D003924
+type 2 diabetes mellitus,MESH:D003924
+type II diabetes,MESH:D003924
+type II diabetes mellitus,MESH:D003924
+acute coronary syndromes,CoDiet_R2_1
+arterial elasticity,CoDiet_R2_2
+arterial stiffening,CoDiet_R2_3
+arterial stiffness,CoDiet_R2_4
+arteriosclerosis,MESH:D001161
+atherosclerotic cardiovascular disease,MESH:D050197
+ASCVD,CoDiet_R2_7
+atherogenesis,CoDiet_R2_8
+atherogeneses,CoDiet_R2_9
+atherosclerosis,MESH:D001161
+atherosclerotic disease,MESH:D001161
+atherogenic dyslipidemia,CoDiet_R2_12
+atherosclerosis,MESH:D001161
+atherosclerotic risk,CoDiet_R2_14
+cardiac artery disease,CoDiet_R2_15
+cardiac disease,CoDiet_R2_16
+cardiac event,CoDiet_R2_17
+cardiometabolic disease,CoDiet_R2_18
+cardiometabolic diseases,CoDiet_R2_19
+cardiovascular diseases,CoDiet_R2_20
+carotid intimal-medial thickness,CoDiet_R2_21
+congestive heart failure,MESH:D006333
+coronary arteriosclerosis,MESH:D003324
+coronary atherosclerosis,MESH:D003324
+coronary artery disease,MESH:D003324
+coronary calcium,CoDiet_R2_26
+coronary heart disease,MESH:D003327
+coronary vascular disease,CoDiet_R2_28
+heart attack,MESH:D009203
+heart attacks,MESH:D009203
+heart disease,CoDiet_R2_30
+left main disease,CoDiet_R2_31
+left main coronary disease,CoDiet_R2_32
+myocardial infarction,MESH:D009203
+primary cardiac arrest,MESH:D006323
+sudden cardiac death,CoDiet_R2_35
+visceral adipose disease,CoDiet_R2_36
+carotid artery disease,MESH:D002340
+carotid stenosis,MESH:D016893
+cerebrovascular disorder,MESH:D002561
+stroke,MESH:D002561
+TIA,MESH:D002546
+transient ischemic attack,MESH:D002546
+alcoholic fatty liver,MESH:D005235
+liver steatosis,MESH:D005234
+non-alcoholic fatty liver disease,MESH:D065626
+steatohepatitis,obo:DOID_0080547 
+steatosis,MESH:D005234
+visceral steatosis,MESH:D005234
+polycystic ovary syndrome,MESH:D011085
+PCOS,MESH:D011085
+cholesterol gallstones,CoDiet_R6_1
+gallstones,CoDiet_R6_2
+apnea,MESH:D012891
+apnoea,MESH:D012891
+sleep apnoea,MESH:D012891
+lipodystrophy,MESH:D008060
+acidosis,obo:DOID_0050758
+chronic renal disease,MESH:D007676
+diabetic nephropathy,CoDiet_R9_3
+diabetic kidney disease,CoDiet_R9_4
+end-stage renal disease,obo:DOID_783
+reduced glomerular filtration rate,CoDiet_R9_6
+abdominal obesity-metabolic syndrome,MESH:C535554
+dysmetabolic syndrome X,MESH:D024821
+metabolic syndrome X,MESH:D024821
+abdominal obesity-metabolic syndrome 1,MESH:D024821
+noninsulin-dependent diabetes mellitus,MESH:D003924
+non-insulin-dependent diabetes mellitus,MESH:D003924
+NIDDM,MESH:D003924
+lipoatrophic diabetes,MESH:D003923
+lipoatrophic diabetes mellitus,MESH:D003923
+NAFLD,MESH:D065626
+non-alcoholic steatohepatitis,obo:DOID_0080547
+hepatic lipidosis,MESH:D005234
+Steatosis of liver,MESH:D005234
+fatty liver disease,MESH:D005234
+NASH,obo:DOID_0080547 
+Alcoholic Steatohepatitis,MESH:D005235
+lipid metabolism disorder,MESH:D008052
+fatty acid metabolism disorder,MESH:D008052
+cardiopulmonary arrest,MESH:D006323
+circulatory arrest,MESH:D006323
+cardiac arrest,MESH:D006323
+cerebrovascular disease,MESH:D002561
+transient cerebral ischemia,MESH:D002546
+transient ischemic attack,MESH:D002546
+transient ischemic attacks,MESH:D002546
+chronic kidney disease,MESH:D007676
+chronic kidney failure,MESH:D007676
+chronic renal failure syndrome,MESH:D007676
+end-stage kidney disease,obo:DOID_783
+end stage renal disease,obo:DOID_783
+end stage kidney disease,obo:DOID_783

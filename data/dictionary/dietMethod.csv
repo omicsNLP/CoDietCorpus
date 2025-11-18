@@ -1,0 +1,205 @@
+﻿Entity,Identifier
+adherence to diet,CoDiet_B2_1
+dietary adherence,CoDiet_B2_10
+self-reported diet record,CoDiet_B2_100
+selfreported dietary data,CoDiet_B2_101
+specific nutrients,CoDiet_B2_102
+standard meal,CoDiet_B2_103
+standard meals,CoDiet_B2_104
+target dietary advice,CoDiet_B2_105
+targeted nutrition,CoDiet_B2_106
+test diets,CoDiet_B2_107
+unbalanced diet,CoDiet_B2_108
+unhealthy diet,CoDiet_B2_109
+dietary advice,CoDiet_B2_11
+unhealthy food,CoDiet_B2_110
+dietary assessment tool,CoDiet_B2_13
+dietary assessments,CoDiet_B2_15
+dietary biomarkers,CoDiet_B2_16
+dietary change,CoDiet_B2_17
+dietary components,CoDiet_B2_18
+dietary data,CoDiet_B2_19
+assess dietary intake,CoDiet_B2_2
+dietary exposure,CoDiet_B2_20
+dietary habits,CoDiet_B2_21
+dietary health,CoDiet_B2_22
+dietary impact,CoDiet_B2_23
+dietary information,CoDiet_B2_24
+dietary intake,CoDiet_B2_25
+dietary intake assessment,CoDiet_B2_26
+dietary intakes,CoDiet_B2_27
+dietary intervention,CoDiet_B2_28
+dietary monitoring,CoDiet_B2_29
+component of the diet,CoDiet_B2_3
+dietary monitoring tool,CoDiet_B2_30
+dietary patterns,CoDiet_B2_31
+dietary policy,CoDiet_B2_32
+dietary prevention,CoDiet_B2_33
+dietary profiling,CoDiet_B2_34
+dietary programme,CoDiet_B2_35
+dietary recalls,CoDiet_B2_36
+dietary recommendations,CoDiet_B2_37
+dietary reporting,CoDiet_B2_38
+dietary response,CoDiet_B2_39
+diet,CoDiet_B2_4
+dietary tools,CoDiet_B2_40
+eating behavior,CoDiet_B2_41
+eating behaviour,CoDiet_B2_42
+eating behaviours,CoDiet_B2_43
+eating episodes,CoDiet_B2_44
+effect of diet,CoDiet_B2_45
+energy imbalance,CoDiet_B2_46
+food composition,CoDiet_B2_48
+food environment,CoDiet_B2_49
+diet consumption,CoDiet_B2_5
+food groups,CoDiet_B2_52
+food intake,CoDiet_B2_53
+food items,CoDiet_B2_54
+food policy,CoDiet_B2_55
+food portion sizes,CoDiet_B2_56
+food recognition,CoDiet_B2_57
+food types,CoDiet_B2_58
+food-based policy,CoDiet_B2_59
+diet diaries,CoDiet_B2_6
+healthier diet,CoDiet_B2_60
+healthy dietary patterns,CoDiet_B2_61
+healthy eating,CoDiet_B2_62
+healthy eating guidelines,CoDiet_B2_63
+healthy eating index,CoDiet_B2_64
+human diet,CoDiet_B2_65
+individual dietary intake,CoDiet_B2_66
+intake of specific food,CoDiet_B2_67
+measuring the diet,CoDiet_B2_68
+misreporting,CoDiet_B2_69
+diet patterns,CoDiet_B2_7
+miss-reporting,CoDiet_B2_70
+monitor dietary patterns,CoDiet_B2_71
+nutrient intake,CoDiet_B2_72
+nutrient intake assessment,CoDiet_B2_73
+nutrition,CoDiet_B2_74
+nutritional,CoDiet_B2_75
+nutritional behaviour,CoDiet_B2_76
+nutritional contributions,CoDiet_B2_77
+nutritional epidemiology,CoDiet_B2_79
+diet quality,CoDiet_B2_8
+nutritional genomics,CoDiet_B2_80
+nutritional intake,CoDiet_B2_81
+nutritional policies,CoDiet_B2_82
+nutritional policy,CoDiet_B2_83
+nutritional research,CoDiet_B2_84
+passive dietary intake,CoDiet_B2_85
+personalised nutrition,CoDiet_B2_86
+personalised nutrition approach,CoDiet_B2_87
+poor diet,CoDiet_B2_88
+poor diet quality,CoDiet_B2_89
+diet-based strategies,CoDiet_B2_9
+poor quality diet,CoDiet_B2_90
+poor-quality diet,CoDiet_B2_91
+population diets,CoDiet_B2_92
+portion size,CoDiet_B2_93
+portion size estimates,CoDiet_B2_94
+portion size estimation,CoDiet_B2_95
+portion sizes,CoDiet_B2_96
+precision nutrition,CoDiet_B2_97
+response to diet,CoDiet_B2_98
+self-report diet,CoDiet_B2_99
+dietary assessment,obo:ONE_0000001
+dietary survey,obo:ONE_0000001
+retrospective dietary survey,obo:ONE_0000002
+prospective dietary survey,obo:ONE_0000003
+dietary diversity,obo:ONE_0000004
+retrospective method for assessing dietary diversity,obo:ONE_0000004
+24-hour dietary recall,obo:ONE_0000005
+dietary history,obo:ONE_0000006
+FFQ,obo:ONE_0000007
+Food Frequency Questionnaire,obo:ONE_0000007
+foodfrequency questionnaire,obo:ONE_0000007
+duplicate diet,obo:ONE_0000008
+dietary records,obo:ONE_0000009
+food dairies,obo:ONE_0000009
+Infant and Young Child Dietary Diversity Score,obo:ONE_0000010
+IYCDDS,obo:ONE_0000010
+retrospective method for assessing dietary diversity of infant and yong child,obo:ONE_0000010
+MDD-W,obo:ONE_0000011
+Minimum Dietary Diversity–Women,obo:ONE_0000011
+retrospective method for assessing dietary diversity of women,obo:ONE_0000011
+screener method,obo:ONE_0000012
+non-quantitative FFQ,obo:ONE_0000013
+semi-quantitative FFQ,obo:ONE_0000014
+weighed food records,obo:ONE_0000015
+estimated food records,obo:ONE_0000016
+quality indicator of a dietary survey,obo:ONE_0001001
+quality of a dietary assessment,obo:ONE_0001001
+quality indicator of a diet recall,obo:ONE_0001002
+quality indicator of a diet survey questionnaire,obo:ONE_0001003
+quality of a data collection instrument,obo:ONE_0001003
+representativeness of days as a quality indicator of a dietary survey,obo:ONE_0001004
+quality indicator of a food quantification,obo:ONE_0001005
+administration type of a diet recall,obo:ONE_0001006
+time of dietary record,obo:ONE_0001007
+origin of a diet survey questionnaire,obo:ONE_0001008
+content validity of a diet survey questionnaire,obo:ONE_0001009
+representativeness of seasons,obo:ONE_0001013
+representativeness of seasons of a dietary survey,obo:ONE_0001013
+representativeness of week/weekend days,obo:ONE_0001014
+representativeness of week/weekend days of a dietary survey,obo:ONE_0001014
+number of days of a dietary survey,obo:ONE_0001015
+selection of recall/measurement days,obo:ONE_0001016
+selection of recall/measurement days of a dietary survey,obo:ONE_0001016
+quantification of a food portion size,obo:ONE_0001017
+quantification of food intake data,obo:ONE_0001018
+geographically specific food quantification,obo:ONE_0001019
+customized food quantification,obo:ONE_0001020
+referred food composition data for quantification,obo:ONE_0001021
+dietary guideline,obo:ONE_0003001
+dietary recommendation,obo:ONE_0003001
+FBDG,obo:ONE_0003001
+food-based dietary guideline,obo:ONE_0003001
+healthy eating plan,obo:ONE_0003001
+qualitative dietary guideline,obo:ONE_0003002
+qualitative dietary recommendation,obo:ONE_0003002
+qualitative FBDG,obo:ONE_0003002
+qualitative food-based dietary guideline,obo:ONE_0003002
+quantitative dietary guideline,obo:ONE_0003003
+quantitative dietary recommendation,obo:ONE_0003003
+quantitative FBDG,obo:ONE_0003003
+quantitative food-based dietary guideline,obo:ONE_0003003
+dietary guideline for infants,obo:ONE_0003004
+dietary recommendation for infants,obo:ONE_0003004
+FBDG for infants,obo:ONE_0003004
+food-based dietary guideline for infants,obo:ONE_0003004
+dietary guideline for children,obo:ONE_0003005
+dietary recommendation for children,obo:ONE_0003005
+FBDG for children,obo:ONE_0003005
+food-based dietary guideline for children,obo:ONE_0003005
+dietary guideline for adolescents,obo:ONE_0003006
+dietary recommendation for adolescents,obo:ONE_0003006
+FBDG for adolescents,obo:ONE_0003006
+food-based dietary guideline for adolescents,obo:ONE_0003006
+dietary guideline for adults,obo:ONE_0003007
+dietary recommendation for adults,obo:ONE_0003007
+FBDG for adults,obo:ONE_0003007
+food-based dietary guideline for adults,obo:ONE_0003007
+dietary guideline for elderly people,obo:ONE_0003008
+dietary recommendation for elderly people,obo:ONE_0003008
+FBDG for elderly people,obo:ONE_0003008
+food-based dietary guideline for elderly people,obo:ONE_0003008
+object property of food-based dietary guidelines,obo:ONE_0003009
+quality indicator of food-based dietary guidelines,obo:ONE_0003009
+dietary guideline regarding food diversity,obo:ONE_0003010
+dietary recommendation regarding food diversity,obo:ONE_0003010
+FBDG regarding food diversity,obo:ONE_0003010
+food-based dietary guideline regarding food diversity,obo:ONE_0003010
+dietary guideline regarding processed food,obo:ONE_0003011
+dietary recommendation regarding processed food,obo:ONE_0003011
+FBDG regarding processed food,obo:ONE_0003011
+food-based dietary guideline regarding processed food,obo:ONE_0003011
+target area of food-based dietary guidelines,obo:ONE_0003012
+a relation between a food-based dietary guideline and its publication year.,obo:ONE_0003013
+publication year of food-based dietary guidelines,obo:ONE_0003013
+update frequency of food-based dietary guidelines,obo:ONE_0003014
+stakeholder of food-based dietary guidelines,obo:ONE_0003015
+target audience of food-based dietary guidelines,obo:ONE_0003016
+promotion method of food-based dietary guidelines,obo:ONE_0003017
+evidence characteristic of food-based dietary guidelines,obo:ONE_0003018
+data property of food-based dietary guidelines,obo:ONE_0003019

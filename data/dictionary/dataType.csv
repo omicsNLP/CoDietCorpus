@@ -1,0 +1,93 @@
+﻿Entity,Identifier
+16s rRNA gene sequencing,CoDiet_D1_1
+amplicon sequencing,CoDiet_D1_2
+array-based profiling,CoDiet_D1_3
+DNA methylation,CoDiet_D1_4
+DNA-methylation,CoDiet_D1_5
+ELISA,CoDiet_D1_6
+GC,CoDiet_D1_7
+genotyping arrays,CoDiet_D1_8
+high-throughput sequencing,CoDiet_D1_9
+HPLC,CoDiet_D1_10
+HPLC-MS,CoDiet_D1_11
+LC-MS,CoDiet_D1_12
+lipoprotein profiling,CoDiet_D1_13
+long read sequencing,CoDiet_D1_14
+next generation sequencing,CoDiet_D1_15
+NGS,CoDiet_D1_16
+NMR,CoDiet_D1_17
+nuclear magnetic resonance,CoDiet_D1_18
+Oxford Nanopore,CoDiet_D1_19
+PacBio,CoDiet_D1_20
+sequencing,CoDiet_D1_21
+shotgun sequencing ,CoDiet_D1_22
+shotgun metagenomic sequencing,CoDiet_D1_23
+single cell mass spectrometry,CoDiet_D1_24
+spectroscopy,CoDiet_D1_25
+bioimpedance,CoDiet_D2_1
+camera,CoDiet_D2_2
+camera technology,CoDiet_D2_3
+dietary metabotypes,CoDiet_D2_4
+epigenetic,CoDiet_D2_5
+epigenetics,CoDiet_D2_6
+epigenome,CoDiet_D2_7
+epigenome-wide,CoDiet_D2_8
+epigenomics,CoDiet_D2_9
+EWAS,CoDiet_D2_10
+gene expression,CoDiet_D2_11
+genetic risk score,CoDiet_D2_12
+GRS,CoDiet_D2_13
+genome,CoDiet_D2_14
+genomes,CoDiet_D2_15
+genomic,CoDiet_D2_16
+genomics,CoDiet_D2_17
+genotype,CoDiet_D2_18
+genotypes,CoDiet_D2_19
+gut microbial analysis,CoDiet_D2_20
+gut microbiome,CoDiet_D2_21
+GWAS,CoDiet_D2_22
+heart rate variability,CoDiet_D2_23
+intelligent camera,CoDiet_D2_24
+lipidomic,CoDiet_D2_25
+lipidomics,CoDiet_D2_26
+lipoprotein analysis,CoDiet_D2_27
+lipoproteins,CoDiet_D2_28
+membrane lipidomics,CoDiet_D2_29
+metabolic profiles,CoDiet_D2_30
+metabolic phenotyping,CoDiet_D2_31
+metabolic  profiling,CoDiet_D2_32
+metabolites,CoDiet_D2_33
+metabolome,CoDiet_D2_34
+metabolomic,CoDiet_D2_35
+metabolomic profile,CoDiet_D2_36
+metabolomics,CoDiet_D2_37
+metabonome,CoDiet_D2_38
+metabonomic,CoDiet_D2_39
+metabonomic profile,CoDiet_D2_40
+metabonomics,CoDiet_D2_41
+metagenome,CoDiet_D2_42
+metagenomics,CoDiet_D2_43
+methylation risk scores,CoDiet_D2_44
+MFC bioimpedance,CoDiet_D2_45
+micro-camera assessment,CoDiet_D2_46
+microbiome,CoDiet_D2_47
+microbiomics,CoDiet_D2_48
+microbiota,CoDiet_D2_49
+omic technologies,CoDiet_D2_50
+passive camera,CoDiet_D2_51
+passive camera technology,CoDiet_D2_52
+photoplethysmography,CoDiet_D2_53
+photopletismography,CoDiet_D2_54
+polygenic risk score,CoDiet_D2_55
+PRS,CoDiet_D2_56
+postbiotics,CoDiet_D2_57
+quantitative profiling,CoDiet_D2_58
+segmental bioimpedance,CoDiet_D2_59
+skin autofluorescense,CoDiet_D2_60
+transcriptomics,CoDiet_D2_61
+wearable camera,CoDiet_D2_62
+wearable cameras,CoDiet_D2_63
+wearable device,CoDiet_D2_64
+wearable,CoDiet_D2_65
+genome-wide association study,obo:STATO_0000091
+genetic association study,obo:STATO_0000235

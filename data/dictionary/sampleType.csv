@@ -1,0 +1,24 @@
+﻿Entity,Identifier
+24hr urine collections,CoDiet_C1_1
+spot urines,CoDiet_C1_2
+urinary,CoDiet_C1_3
+urine,CoDiet_C1_4
+blood,CoDiet_C1_5
+plasma,CoDiet_C1_6
+serum,CoDiet_C1_7
+cell membrane,CoDiet_C1_8
+membrane,CoDiet_C1_9
+faeces,CoDiet_C1_10
+feces,CoDiet_C1_11
+faecal,CoDiet_C1_12
+fecal,CoDiet_C1_13
+gastrointestinal,CoDiet_C1_14
+gut,CoDiet_C1_15
+stool,CoDiet_C1_16
+fasted,CoDiet_C1_17
+non-fasted,CoDiet_C1_18
+image,CoDiet_C2_1
+imagery,CoDiet_C2_2
+images,CoDiet_C2_3
+photos,CoDiet_C2_4
+video,CoDiet_C2_5
