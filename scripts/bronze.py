@@ -130,11 +130,6 @@ for i in range(len(all_input)):
 all_input_2 = glob.glob('./bronze/*')
 for i in range(len(all_input_2)):
     all_input_2[i] = all_input_2[i].split('/')[-1].split('.')[0]
-    
-f = open(f'./data/forward_tree_count.json')
-db_dict = json.load(f)
-db_dict = extract_last_level(db_dict)
-word_list = list(db_dict.keys())
         
 for uyi in range(len(all_input)):
     if all_input[uyi] in all_input_2:
@@ -337,20 +332,7 @@ for uyi in range(len(all_input)):
                 # Accumulate offset for the next chunk
                 accumulated_offset += len(chunk)
             for i in range(len(trigger_meta)):
-                word = trigger_meta[i]
-                try:
-                    if db_dict.get(word) == None:
-                        similarity_results = highest_similarity(word, word_list)
-                        current = []
-                        for similarity, trigger in similarity_results:
-                            current.append(db_dict.get(trigger))
-                        id_meta.append(','.join(current))
-                    else:
-                        id_meta.append(db_dict.get(word))
-                except:
-                    id_meta.append('')
-                    print(trigger_meta[i])
-                    print('\n')
+                id_meta.append('')
 
             start_ppmm = []
             len_ppmm = []
