@@ -55,25 +55,25 @@ unzip ./CoDiet-Gold-private.zip
 ### 1️⃣ Input Text Processing
 
 ```bash
-python ./script/input_text.py
+python ./scripts/input_text.py
 ```
 
 ### 2️⃣ Dictionary Matching
 
 ```bash
-python ./script/dictionary_matching.py
+python ./scripts/dictionary_matching.py
 ```
 
 ### 3️⃣ Priority Dictionary Matching
 
 ```bash
-python ./script/priority_dictionary_matching.py
+python ./scripts/priority_dictionary_matching.py
 ```
 
 ### 4️⃣ Enzyme Annotation
 
 ```bash
-python ./script/AnnotationEnzymes.py
+python ./scripts/AnnotationEnzymes.py
 ```
 
 ⚠️ Note: This script is an adaptation of another library [eNzymER](https://github.com/omicsNLP/enzymeNER).
@@ -93,7 +93,7 @@ Then run:
 ```bash
 git clone https://github.com/biomedicalinformaticsgroup/ParallelPyMetaMap.git
 pip install ./ParallelPyMetaMap
-python ./script/ppmm.py
+python ./scripts/ppmm.py
 ```
 
 ⚠️ Warning: Ensure MetaMap config matches the script, or update accordingly.
@@ -103,8 +103,8 @@ python ./script/ppmm.py
 ```bash
 git clone https://github.com/omicsNLP/microbELP.git
 pip install ./microbELP
-python ./script/parallel_microELP.py   # or
-python ./script/microELP.py
+python ./scripts/parallel_microELP.py   # or
+python ./scripts/microELP.py
 ```
 
 ### 7️⃣ PhenoBERT Annotation
@@ -155,20 +155,20 @@ cd ../../..
 Follow the [BERN2 README](https://github.com/dmis-lab/BERN2) to start the BERN server. Then you can run:
 
 ```bash
-python ./script/bern2.py
+python ./scripts/bern2.py
 ```
 
 ### 9️⃣ Combine Predictions & Infer Metabolites to generate the Bronze dataset
 
 ```bash
 conda activate CoDiet_machine
-python ./script/bronze.py
+python ./scripts/bronze.py
 ```
 
 ### 🔟 Bronze to Silver Conversion
 
 ```bash
-python ./script/silver.py
+python ./scripts/silver.py
 ```
 
 ---
