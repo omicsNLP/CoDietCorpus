@@ -10,7 +10,7 @@
 ---
 
 # CoDietCorpus
-Code repository for the creation and annotation of corpora in the CoDiet project.
+Code repository for the creation and annotation of corpora in the CoDiet project. Note that the Codabench link will be made public once the manuscript is accepted, if you wish to contribute your model before this time please contact us to receive access to a secret url.
 
 ---
 
