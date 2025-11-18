@@ -103,8 +103,18 @@ python ./scripts/ppmm.py
 ```bash
 git clone https://github.com/omicsNLP/microbELP.git
 pip install ./microbELP
-python ./scripts/parallel_microELP.py   # or
+```
+
+Using the single-core CPU:
+
+```bash
 python ./scripts/microELP.py
+```
+
+or the multiprocessing implementation:
+
+```bash
+python ./scripts/parallel_microELP.py
 ```
 
 ### 7️⃣ PhenoBERT Annotation
@@ -152,7 +162,7 @@ If not already done, exit the PhenoBERT directory:
 cd ../../..
 ```
 
-Follow the [BERN2 README](https://github.com/dmis-lab/BERN2) to start the BERN server. Then you can run:
+Follow the [BERN2 README](https://github.com/dmis-lab/BERN2) to start the BERN2 server. Then you can run:
 
 ```bash
 python ./scripts/bern2.py
