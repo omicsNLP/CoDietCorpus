@@ -98,7 +98,7 @@ def find_start_end_trigger(model, tokenizer, input_text):
     return predictions, tokens, offsets_mapping, start_position, end_position, trigger
 
 # Load your model and tokenizer
-model_name = './data/metabolite_annotation/multi_label_M+LvE_proteomics_scibert.model/'  # Replace with your actual model name
+model_name = 'Antoinelfr/bronze_silver_GH'  # Replace with your actual model name
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForTokenClassification.from_pretrained(model_name)
 
@@ -328,11 +328,10 @@ for uyi in range(len(all_input)):
                     len_meta.append(to_identify[i][-1][1] - to_identify[i][0][0])
                     trigger_meta.append(input_text[accumulated_offset + to_identify[i][0][0]:(accumulated_offset + to_identify[i][0][0]) + (to_identify[i][-1][1] - to_identify[i][0][0])])
                     cat_meta.append('metabolites')
+                    id_meta.append('')
 
                 # Accumulate offset for the next chunk
                 accumulated_offset += len(chunk)
-            for i in range(len(trigger_meta)):
-                id_meta.append('')
 
             start_ppmm = []
             len_ppmm = []
