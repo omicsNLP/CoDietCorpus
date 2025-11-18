@@ -141,6 +141,7 @@ cd phenobert/utils
 
 python ./annotate.py -i ../../../passages_input/ -o ../../../output/phenobert_output/
 cd ../../..
+conda deactivate
 ```
 
 ### 8️⃣ BERN2 Annotation
@@ -160,6 +161,7 @@ python ./script/bern2.py
 ### 9️⃣ Combine Predictions & Infer Metabolites to generate the Bronze dataset
 
 ```bash
+conda activate CoDiet_machine
 python ./script/bronze.py
 ```
 
