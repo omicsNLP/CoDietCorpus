@@ -27,7 +27,7 @@ Create and activate the main Conda environment:
 conda create -n CoDiet_machine
 conda activate CoDiet_machine
 conda install pip
-pip install pandas numpy openpyxl gdown
+pip install pandas numpy openpyxl
 ```
 
 ---
@@ -126,6 +126,7 @@ conda deactivate
 conda create -n CoDiet_phenobert python=3.10
 conda activate CoDiet_phenobert
 conda install pip
+pip install gdown
 ```
 
 Set up PhenoBERT:
