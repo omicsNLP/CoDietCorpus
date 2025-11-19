@@ -145,12 +145,11 @@ pip install -r requirements.txt
 python setup.py
 cd phenobert/utils
 
-# Install PyTorch version 2.0.1 , stanza version 1.6.1, numpy version 1.24.3 if needed
-# pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu117
-# pip install stanza==1.6.1 numpy==1.24.3
+pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu117
+pip install stanza==1.6.1 numpy==1.24.3
 # You might need to install some NLTK packages as well
 
-python ./annotate.py -i ../../../passages_input/ -o ../../../output/phenobert_output/
+python ./annotate.py -i ../../../output/passages_input/ -o ../../../output/phenobert_output/
 cd ../../..
 conda deactivate
 ```
