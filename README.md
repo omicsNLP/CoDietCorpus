@@ -182,6 +182,12 @@ python ./scripts/silver.py
 
 ---
 
+## ⚠️ Important - Please Read!
+
+Published literature can be subject to copyright with restrictions on redistribution. Users need to be mindful of the data storage requirements and how the derived products are presented and shared. Many publishers provide guidance on the use of content for redistribution and use in research.
+
+---
+
 ## Used the following repositories
 
 - [cadmus](https://github.com/biomedicalinformaticsgroup/cadmus)<a href="https://github.com/biomedicalinformaticsgroup/cadmus"><img src="https://img.shields.io/github/stars/biomedicalinformaticsgroup/cadmus.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
