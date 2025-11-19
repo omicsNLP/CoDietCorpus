@@ -12,6 +12,6 @@ if __name__ == "__main__":
 
 	parallel_microbELP(
 		'./CoDiet-Gold-private', #type str
-		8, #type int
+		3, #type int
 		output_directory='./output'
 	)
