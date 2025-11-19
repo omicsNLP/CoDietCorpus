@@ -132,7 +132,7 @@ Set up PhenoBERT:
 
 ```bash
 git clone https://github.com/EclipseCN/PhenoBERT.git
-wget https://drive.google.com/drive/folders/1jIqW19JJPzYuyUadxB5Mmfh-pWRiEopH
+gdown --folder "https://drive.google.com/drive/folders/1jIqW19JJPzYuyUadxB5Mmfh-pWRiEopH"
 
 mv ./PhenoBERT_data/models/* ./PhenoBERT/phenobert/models/
 mv ./PhenoBERT_data/embeddings/* ./PhenoBERT/phenobert/embeddings/
