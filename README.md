@@ -143,12 +143,11 @@ mkdir ./output/phenobert_output
 cd PhenoBERT
 pip install -r requirements.txt
 python setup.py
-cd phenobert/utils
-
 pip install torch==2.0.1+cu117 torchvision==0.15.2+cu117 torchaudio==2.0.2 --index-url https://download.pytorch.org/whl/cu117
 pip install stanza==1.6.1 numpy==1.24.3
 python -c "import nltk; nltk.download('averaged_perceptron_tagger_eng')"
 
+cd phenobert/utils
 python ./annotate.py -i ../../../output/passages_input/ -o ../../../output/phenobert_output/
 cd ../../..
 conda deactivate
