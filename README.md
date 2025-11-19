@@ -1,4 +1,4 @@
-[![DOI:10.1101/2021.01.08.425887](http://img.shields.io/badge/preprint_DOI-10.1101/2025.08.29.67155-BE2536.svg)](https://doi.org/10.1101/2025.08.29.671515)
+[![DOI:10.1101/2021.01.08.425887](http://img.shields.io/badge/preprint_DOI-10.1101/2025.09.04.673740-BE2536.svg)](https://doi.org/10.1101/2025.09.04.673740)
 [![DOI:10.5281/zenodo.17305411](http://img.shields.io/badge/data_DOI-10.5281/zenodo.17610205-3382C4.svg)](https://zenodo.org/records/17610205)
 [![Codabench](http://img.shields.io/badge/Codabench-CoDiet_Gold_benchmark-2C3F4C.svg)](https://www.codabench.org/competitions/11676/)
 [![CoDiet](https://img.shields.io/badge/%F0%9F%8D%8E_a_CoDiet_study-5AA764)](https://www.codiet.eu)
