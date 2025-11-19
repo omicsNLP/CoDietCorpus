@@ -124,7 +124,7 @@ Create a separate environment for PhenoBERT:
 ```bash
 conda deactivate
 conda create -n CoDiet_phenobert python=3.10
-conda activate CoDiet_machine
+conda activate CoDiet_phenobert
 conda install pip
 ```
 
