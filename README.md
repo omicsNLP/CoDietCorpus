@@ -190,13 +190,24 @@ Published literature can be subject to copyright with restrictions on redistribu
 
 ## Used the following repositories
 
-- [cadmus](https://github.com/biomedicalinformaticsgroup/cadmus)<a href="https://github.com/biomedicalinformaticsgroup/cadmus"><img src="https://img.shields.io/github/stars/biomedicalinformaticsgroup/cadmus.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
-- [Auto-CORPus](https://github.com/omicsNLP/Auto-CORPus)<a href="https://github.com/omicsNLP/Auto-CORPus"><img src="https://img.shields.io/github/stars/omicsNLP/Auto-CORPus.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
-- [BERN2](https://github.com/dmis-lab/BERN2)<a href="https://github.com/dmis-lab/BERN2"><img src="https://img.shields.io/github/stars/dmis-lab/BERN2.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
-- [PhenoBERT](https://github.com/EclipseCN/PhenoBERT)<a href="https://github.com/EclipseCN/PhenoBERT"><img src="https://img.shields.io/github/stars/EclipseCN/PhenoBERT.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
-- [TABoLiSTM](https://github.com/omicsNLP/MetaboliteNER)<a href="https://github.com/omicsNLP/MetaboliteNER"><img src="https://img.shields.io/github/stars/omicsNLP/MetaboliteNER.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
-- [eNzymER](https://github.com/omicsNLP/enzymeNER)<a href="https://github.com/omicsNLP/enzymeNER"><img src="https://img.shields.io/github/stars/omicsNLP/enzymeNER.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
-- [microbELP](https://github.com/omicsNLP/microbELP)<a href="https://github.com/omicsNLP/microbELP"><img src="https://img.shields.io/github/stars/omicsNLP/microbELP.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a>
+<div align="center">
+
+<div align="center">
+
+| GitHub repository | Paper | 
+|:-----------------:|:-----:|
+| [cadmus](https://github.com/biomedicalinformaticsgroup/cadmus) <a href="https://github.com/biomedicalinformaticsgroup/cadmus"><img src="https://img.shields.io/github/stars/biomedicalinformaticsgroup/cadmus.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a> | n/a |
+| [Auto-CORPus](https://github.com/omicsNLP/Auto-CORPus) <a href="https://github.com/omicsNLP/Auto-CORPus"><img src="https://img.shields.io/github/stars/omicsNLP/Auto-CORPus.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a> | [Paper](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2022.788124/full) |
+| [BERN2](https://github.com/dmis-lab/BERN2) <a href="https://github.com/dmis-lab/BERN2"><img src="https://img.shields.io/github/stars/dmis-lab/BERN2.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a> | [Paper](https://arxiv.org/abs/2201.02080) |
+| [PhenoBERT](https://github.com/EclipseCN/PhenoBERT) <a href="https://github.com/EclipseCN/PhenoBERT"><img src="https://img.shields.io/github/stars/EclipseCN/PhenoBERT.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a> | [Paper](https://ieeexplore.ieee.org/document/9763337) |
+| [TABoLiSTM](https://github.com/omicsNLP/MetaboliteNER) <a href="https://github.com/omicsNLP/MetaboliteNER"><img src="https://img.shields.io/github/stars/omicsNLP/MetaboliteNER.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a> | [Paper](https://www.mdpi.com/2218-1989/12/4/276) |
+| [eNzymER](https://github.com/omicsNLP/enzymeNER) <a href="https://github.com/omicsNLP/enzymeNER"><img src="https://img.shields.io/github/stars/omicsNLP/enzymeNER.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a> | [Paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.3c00367) |
+| [microbELP](https://github.com/omicsNLP/microbELP) <a href="https://github.com/omicsNLP/microbELP"><img src="https://img.shields.io/github/stars/omicsNLP/microbELP.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a> | [Paper](https://www.biorxiv.org/content/10.1101/2025.08.29.671515v1.full) |
+
+</div>
+
+
+</div>
 
 ---
 
