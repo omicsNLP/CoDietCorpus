@@ -2,7 +2,7 @@ from ParallelPyMetaMap import ppmm
 import shutil
 
 if __name__ == "__main__":
-    ppmm(6, 
+    ppmm(3, 
         '/software/public_mm/bin/metamap20', 
         path_to_directory = './output/passages_input',
         machine_output = True,
