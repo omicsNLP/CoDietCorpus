@@ -13,29 +13,9 @@ import torch
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 from difflib import SequenceMatcher
 
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
 exclude = []
-
-def highest_similarity(string, word_list):
-    string_lower = string.lower()
-    word_list_lower = [word.lower() for word in word_list]
-    similarities = [SequenceMatcher(None, string_lower, word_lower).ratio() for word_lower in word_list_lower]
-    # Find the highest similarity score
-    max_similarity = max(similarities)
-    # Find all indices with the highest similarity score
-    highest_indices = [i for i, score in enumerate(similarities) if score == max_similarity]
-    # Return a list of tuples with (similarity score, word) for each highest similarity word
-    result = [(max_similarity, word_list[i]) for i in highest_indices]
-    return result
-
-def extract_last_level(d, parent_key='', sep='_'):
-    result = {}
-    for k, v in d.items():
-        new_key = f"{parent_key}{sep}{k}" if parent_key else k
-        if isinstance(v, dict):
-            result.update(extract_last_level(v, new_key, sep=sep))
-        else:
-            result[k] = v[0]  # Assuming there's always a single element in the list
-    return result
 
 def create_sublists(lst, lst2, tokens):
     sublists = []
@@ -61,16 +41,28 @@ def create_sublists(lst, lst2, tokens):
 
 def find_start_end_trigger(model, tokenizer, input_text):
     # Tokenize the input text
-    inputs = tokenizer(input_text, return_tensors="pt", truncation=True, return_offsets_mapping=True)
+    # Tokenize the input text
+    inputs = tokenizer(
+        input_text,
+        return_tensors="pt",
+        truncation=True,
+        return_offsets_mapping=True
+    )
+
+    # Move tensors to device
+    for k, v in inputs.items():
+        if isinstance(v, torch.Tensor):
+            inputs[k] = v.to(device)
+
     tokens = tokenizer.convert_ids_to_tokens(inputs["input_ids"][0].tolist())
-    offsets_mapping = inputs.pop("offset_mapping")[0].tolist()
+    offsets_mapping = inputs.pop("offset_mapping")[0].tolist() 
 
     # Make predictions
     with torch.no_grad():
         outputs = model(**inputs)
 
     # Get the predicted labels
-    predictions = torch.argmax(outputs.logits, dim=2)[0]
+    predictions = torch.argmax(outputs.logits, dim=2)[0].cpu()
     
     # Find the start position in the original text
     start_position = -1
@@ -98,9 +90,11 @@ def find_start_end_trigger(model, tokenizer, input_text):
     return predictions, tokens, offsets_mapping, start_position, end_position, trigger
 
 # Load your model and tokenizer
-model_name = 'Antoinelfr/bronze_silver_GH'  # Replace with your actual model name
+model_name = 'Antoinelfr/bronze_silver_GH'  
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForTokenClassification.from_pretrained(model_name)
+model = model.to(device)
+model.eval()
 
 def find_similar_substring(text, substring):
     best_match = None
@@ -125,11 +119,11 @@ def find_similar_substring(text, substring):
 os.mkdir('./bronze')
 all_input = glob.glob('./CoDiet-Gold-private/*')
 for i in range(len(all_input)):
-    all_input[i] = all_input[i].split('/')[-1].split('.')[0]
+    all_input[i] = all_input[i].split('/')[-1].split('_')[0]
     
 all_input_2 = glob.glob('./bronze/*')
 for i in range(len(all_input_2)):
-    all_input_2[i] = all_input_2[i].split('/')[-1].split('.')[0]
+    all_input_2[i] = all_input_2[i].split('/')[-1].split('_')[0]
         
 for uyi in range(len(all_input)):
     if all_input[uyi] in all_input_2:
@@ -138,11 +132,11 @@ for uyi in range(len(all_input)):
         if len(all_input) > 100:
             if uyi % (len(all_input) // 10) == 0:
                 print(f'Processing index: {uyi} of {len(all_input)}')
-        f = open(f'./CoDiet-Gold-private/{all_input[uyi]}.json')
+        f = open(f'./CoDiet-Gold-private/{all_input[uyi]}_bioc.json')
         all_data = json.load(f)
-        f = open(f'./output/enzyme_annotated/{all_input[uyi]}_annotated.json')
+        f = open(f'./output/enzyme_annotated/{all_input[uyi]}_bioc_annotated.json')
         enzyme_data = json.load(f)
-        f = open(f'./output/microbELP_result/{all_input[uyi]}.json')
+        f = open(f'./output/microbELP_result/{all_input[uyi]}_bioc.json')
         microbiome_data = json.load(f)
         total = 1
 
@@ -327,7 +321,7 @@ for uyi in range(len(all_input)):
                     start_meta.append(current_offset + accumulated_offset + to_identify[i][0][0])
                     len_meta.append(to_identify[i][-1][1] - to_identify[i][0][0])
                     trigger_meta.append(input_text[accumulated_offset + to_identify[i][0][0]:(accumulated_offset + to_identify[i][0][0]) + (to_identify[i][-1][1] - to_identify[i][0][0])])
-                    cat_meta.append('metabolites')
+                    cat_meta.append('metabolite')
                     id_meta.append('')
 
                 # Accumulate offset for the next chunk
