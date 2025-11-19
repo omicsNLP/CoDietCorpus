@@ -89,7 +89,7 @@ for i in range(len(input_list)):
         annotation.append([start, end, word, 'proteinEnzyme', identifier])
     matches = find_matches(data, p_metabolite, p_metabolite_id)
     for start, end, word, identifier in matches:
-        annotation.append([start, end, word, 'metabolites', identifier]) 
+        annotation.append([start, end, word, 'metabolite', identifier]) 
     matches = find_matches(data, p_compu, p_compu_id)
     for start, end, word, identifier in matches:
         annotation.append([start, end, word, 'computational', identifier])
