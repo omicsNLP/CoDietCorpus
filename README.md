@@ -11,11 +11,11 @@
 
 # CoDietCorpus
 
-Code repository for the creation and annotation of corpora in the CoDiet project. 
+Code repository for the annotation of silver and bronze corpora related to the CoDiet project.
 
-This project provides scripts to generate **Bronze** and **Silver** annotated test datasets for the **CoDiet** dataset. It leverages multiple pipelines, including dictionary matching, MetaMap, enzyme annotation, PhenoBERT, MicrobELP, and BERN2.
+This repository provides the scripts required to generate Bronze and Silver annotated test sets for the CoDiet dataset. The annotation process integrates multiple pipelines, including dictionary-based matching, MetaMap, enzyme annotation, PhenoBERT, MicrobELP, and BERN2.
 
-Note that the Codabench link will be made public once the manuscript is accepted. If you wish to contribute your model before this time, please contact us to receive access to a secret URL.
+Please note that the Codabench link will be made public once the manuscript is accepted. If you would like to contribute your model prior to publication, feel free to contact us to obtain access to a private URL.
 
 ---
 
