@@ -203,6 +203,7 @@ cd ../../..
 ```
 
 4. Start the BERN2 server
+   
 **GPU (Linux/WSL)**
 ```bash
 export CUDA_VISIBLE_DEVICES=0
