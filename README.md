@@ -217,6 +217,7 @@ conda create -n CoDiet_bern2 python=3.7
 conda activate CoDiet_bern2
 conda install pytorch==1.9.0 cudatoolkit=10.2 -c pytorch
 conda install faiss-gpu libfaiss-avx2 -c conda-forge
+conda install pip
 pip install gdown
 ```
 
