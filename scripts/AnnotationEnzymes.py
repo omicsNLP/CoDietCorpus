@@ -177,7 +177,7 @@ def para_enzyme(input_list, output_folder, process_number):
                         for item in search_list:
                             parts = item.split()
                             for part in parts:
-                                if part == word_before and not re.match('\d+', word_before):
+                                if part == word_before and not re.match(r'\d+', word_before):
                                     entity = word_before + ' ' + entity
                                     if entity[0] in end_word:
                                         entity = entity[1:]
@@ -353,9 +353,8 @@ def para_enzyme(input_list, output_folder, process_number):
             dict_entities[entity] = 0
         else:
             dict_entities[entity] += 1
-        tmp = entity.replace('\\', '\\\\\\').replace('(', '\(').replace(')', '\)').replace(
-            '[', '\[').replace('{', '\{').replace('+', '\+').replace('*', '\*')
-        #print (entity)
+        tmp = (entity.replace('\\', '\\\\\\').replace('(', r'\(').replace(')', r'\)').replace('[', r'\[').replace('{', r'\{').replace('+', r'\+').replace('*', r'\*'))
+
         #print (tmp)
         #print()
         positions = [item.start()
