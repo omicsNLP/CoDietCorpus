@@ -30,7 +30,10 @@ for i in range(len(input_list)):
     else:
         to_do.append(input_list[i])
 
-
+try:
+    test = query_plain('BERN2 is setup')
+except:
+    time.sleep(60)
 
 for i in range(len(to_do)):
     if len(to_do) > 100:
