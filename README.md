@@ -161,10 +161,68 @@ If not already done, exit the PhenoBERT directory:
 cd ../../..
 ```
 
-Follow the [BERN2 README](https://github.com/dmis-lab/BERN2) to start the BERN2 server. Then you can run:
+⚠️ Note: This set of instructions is an adaptation of the official README from the original library [BERN2 README](https://github.com/dmis-lab/BERN2).
 
+⚠️ **Prerequisites**: This installation requires:
+- ~70GB of free disk space
+- For GPU: ≥63.5GB RAM and ≥5GB GPU memory
+- Linux or WSL (Windows Subsystem for Linux)
+
+1. Create environment and install dependencies
+```bash
+conda create -n CoDiet_bern2 python=3.7
+conda activate CoDiet_bern2
+conda install pytorch==1.9.0 cudatoolkit=10.2 -c pytorch
+conda install faiss-gpu libfaiss-avx2 -c conda-forge
+pip install gdown
+```
+
+2. Download BERN2
+```bash
+git clone https://github.com/dmis-lab/BERN2.git
+cd BERN2
+pip install -r requirements.txt
+
+gdown --folder "https://drive.google.com/file/d/147b3OhU4IdQi121ZBUSqO1XKdKoXE5DK"
+tar -zxvf resources_v1.1.b.tar.gz
+md5sum resources_v1.1.b.tar.gz
+# make sure the md5sum is 'c0db4e303d1ccf6bf56b42eda2fe05d0'
+rm resources_v1.1.b.tar.gz
+```
+
+3. Install CRF (required for GNormPlus)
+```bash
+cd resources/GNormPlusJava
+tar -zxvf CRF++-0.58.tar.gz
+mv CRF++-0.58 CRF
+cd CRF
+./configure --prefix="$HOME"
+make
+make install
+cd ../../..
+```
+
+4. Start the BERN2 server
+**GPU (Linux/WSL)**
+```bash
+export CUDA_VISIBLE_DEVICES=0
+cd scripts
+nohup bash run_bern2.sh &
+cd ../..
+```
+
+**CPU**
+```bash
+cd scripts
+nohup bash run_bern2_cpu.sh &
+cd ../..
+```
+
+5. Run inference
 ```bash
 python ./scripts/bern2.py
+bash ./BERN2/scripts/stop_bern2.sh 
+conda deactivate
 ```
 
 ### 9️⃣ Combine Predictions & Infer Metabolites to generate the Bronze dataset
