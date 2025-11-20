@@ -8,7 +8,7 @@ try:
 except:
     pass
 
-def query_plain(text, url="http://localhost:1258/plain"):
+def query_plain(text, url="http://localhost:8888/plain"):
     return requests.post(url, json={'text': text}).json()
 
 
