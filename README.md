@@ -57,6 +57,7 @@ unzip ./CoDiet-Gold-private.zip
 ```bash
 python ./scripts/input_text.py
 ```
+This script creates a directory named `passages_input` inside `./output`. It will contain one text file per passage extracted from each PMCID. Each file follows the naming convention `PMCID_PASSAGE_NUMBER.txt` and includes the raw passage text from the original article.
 
 ### 2️⃣ Dictionary Matching
 
@@ -64,11 +65,36 @@ python ./scripts/input_text.py
 python ./scripts/dictionary_matching.py
 ```
 
+This step takes the files in `passages_input` along with the dictionaries stored in the `./data/dictionary` directory.
+It generates a new directory called `dictionary_output` inside `./output`, containing the dictionary-based annotations for the following nine categories:
+- computational
+- dataType
+- dietMethod
+- diseasePhenotype
+- foodRelated
+- methodology
+- modelOrganism
+- populationCharacteristic
+- sampleType
+Each output file includes all matches found for these categories.
+
 ### 3️⃣ Priority Dictionary Matching
 
 ```bash
 python ./scripts/priority_dictionary_matching.py
 ```
+
+This step takes the files in `passages_input` along with the dictionaries stored in the `./data/priority_dictionary` directory.
+It generates a new directory called `priority_dictionary_output` inside `./output`, containing the dictionary-based annotations for the following eight categories:
+- computational
+- dietMethod
+- diseasePhenotype
+- foodRelated
+- metabolite
+- populationCharacteristic
+- proteinEnzyme
+- sampleType
+Each output file includes all matches found for these categories.
 
 ### 4️⃣ Enzyme Annotation
 
@@ -77,6 +103,10 @@ python ./scripts/AnnotationEnzymes.py
 ```
 
 ⚠️ Note: This script is an adaptation of another library [eNzymER](https://github.com/omicsNLP/enzymeNER).
+
+This step takes the original BioC files from `./CoDiet-Gold-private` and creates a new directory called `./enzyme_annotated` inside `./output`. The directory contains the same BioC files, now including annotations added to the annotation field.
+
+In this stage, the system identifies and labels Enzyme mentions for the proteinEnzyme category.
 
 ### 5️⃣ MetaMap-based Annotation
 
@@ -95,10 +125,17 @@ git clone https://github.com/biomedicalinformaticsgroup/ParallelPyMetaMap.git
 pip install ./ParallelPyMetaMap
 python ./scripts/ppmm.py
 ```
+This step processes the files in `passages_input` using [MetaMap](https://github.com/biomedicalinformaticsgroup/ParallelPyMetaMap). MetaMap is run with a restricted vocabulary consisting of the following semantic types: `['food', 'bdsu', 'lbpr', 'inpr', 'resa']`. The resulting MetaMap outputs are used to generate annotations for the following categories:
+- foodRelated
+- sampleType
+- dataType
+- methodology
+
+All annotations are written in `output_ParallelPyMetaMap_text_mo` within the `./output` directory.
 
 ⚠️ Warning: Ensure MetaMap config matches the script, or update accordingly.
 
-### 6️⃣ MicrobELP Annotation
+### 6️⃣ [MicrobELP](https://github.com/omicsNLP/microbELP) Annotation
 
 ```bash
 git clone https://github.com/omicsNLP/microbELP.git
@@ -116,6 +153,10 @@ or the multiprocessing implementation:
 ```bash
 python ./scripts/parallel_microELP.py
 ```
+
+This step takes the original BioC files from `./CoDiet-Gold-private` and creates a new directory called `./microbELP_result` inside `./output`. The directory contains the same BioC files, now including annotations added to the annotation field.
+
+In this stage, the system identifies and labels microbiome mentions.
 
 ### 7️⃣ PhenoBERT Annotation
 
@@ -152,6 +193,8 @@ python ./annotate.py -i ../../../output/passages_input/ -o ../../../output/pheno
 cd ../../..
 conda deactivate
 ```
+
+This step takes the files in `passages_input` and annotates them with phenotype-related entities using [PhenoBERT](https://github.com/EclipseCN/PhenoBERT). The resulting annotated files are saved in a directory named `phenobert_output` inside `./output`.
 
 ### 8️⃣ BERN2 Annotation
 
@@ -226,6 +269,14 @@ bash ./BERN2/scripts/stop_bern2.sh
 conda deactivate
 ```
 
+This step processes the files in `passages_input` using the local BERN2 server. All predictions are saved in a directory named `bern2_output` inside `./output`. BERN2 generates annotations for the following four categories:
+- proteinEnzyme
+- geneSNP
+- diseasePhenotype
+- modelOrganism
+
+Each output file includes the extracted entities.
+
 ### 9️⃣ Combine Predictions & Infer Metabolites to generate the Bronze dataset
 
 ```bash
@@ -233,11 +284,15 @@ conda activate CoDiet_machine
 python ./scripts/bronze.py
 ```
 
+This step collects all annotation results generated in `./output` and collates them into their corresponding BioC file. It also applies an early BERT-based model developed for metabolite NER (from a forthcoming publication) to identify metabolite mentions. All extracted entities are merged and added to the annotation field of the original BioC files from `CoDiet-Gold-private`. The fully annotated files, with the thirteen categories, are saved in the `./bronze` directory.
+
 ### 🔟 Bronze to Silver Conversion
 
 ```bash
 python ./scripts/silver.py
 ```
+
+This step takes the annotated BioC files generated in `./bronze` and applies rule-based logic to resolve overlapping or conflicting annotations. The script selects the most appropriate annotations according to these rules and saves the refined BioC files in the `./silver` directory.
 
 ---
 
