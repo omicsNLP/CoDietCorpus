@@ -96,7 +96,7 @@ It generates a new directory called `priority_dictionary_output` inside `./outpu
 - sampleType
 Each output file includes all matches found for these categories.
 
-### 4️⃣ Enzyme Annotation
+### 4️⃣ [Enzyme Annotation](https://github.com/omicsNLP/enzymeNER)
 
 ```bash
 python ./scripts/AnnotationEnzymes.py
@@ -108,7 +108,7 @@ This step takes the original BioC files from `./CoDiet-Gold-private` and creates
 
 In this stage, the system identifies and labels Enzyme mentions for the proteinEnzyme category.
 
-### 5️⃣ MetaMap-based Annotation
+### 5️⃣ [MetaMap-based Annotation](https://github.com/biomedicalinformaticsgroup/ParallelPyMetaMap)
 
 MetaMap must be installed and configured properly.
 If the Metamap instance is not running, start the MetaMap instance from the correct folder:
@@ -125,7 +125,7 @@ git clone https://github.com/biomedicalinformaticsgroup/ParallelPyMetaMap.git
 pip install ./ParallelPyMetaMap
 python ./scripts/ppmm.py
 ```
-This step processes the files in `passages_input` using [MetaMap](https://github.com/biomedicalinformaticsgroup/ParallelPyMetaMap). MetaMap is run with a restricted vocabulary consisting of the following semantic types: `['food', 'bdsu', 'lbpr', 'inpr', 'resa']`. The resulting MetaMap outputs are used to generate annotations for the following categories:
+This step processes the files in `passages_input` using [MetaMap](https://www.nlm.nih.gov/research/umls/implementation_resources/metamap.html). MetaMap is run with a restricted vocabulary consisting of the following semantic types: `['food', 'bdsu', 'lbpr', 'inpr', 'resa']`. The resulting MetaMap outputs are used to generate annotations for the following categories:
 - foodRelated
 - sampleType
 - dataType
@@ -135,7 +135,7 @@ All annotations are written in `output_ParallelPyMetaMap_text_mo` within the `./
 
 ⚠️ Warning: Ensure MetaMap config matches the script, or update accordingly.
 
-### 6️⃣ [MicrobELP](https://github.com/omicsNLP/microbELP) Annotation
+### 6️⃣ [MicrobELP Annotation](https://github.com/omicsNLP/microbELP)
 
 ```bash
 git clone https://github.com/omicsNLP/microbELP.git
@@ -158,7 +158,7 @@ This step takes the original BioC files from `./CoDiet-Gold-private` and creates
 
 In this stage, the system identifies and labels microbiome mentions.
 
-### 7️⃣ PhenoBERT Annotation
+### 7️⃣ [PhenoBERT Annotation](https://github.com/EclipseCN/PhenoBERT)
 
 Create a separate environment for PhenoBERT:
 
@@ -196,7 +196,7 @@ conda deactivate
 
 This step takes the files in `passages_input` and annotates them with phenotype-related entities using [PhenoBERT](https://github.com/EclipseCN/PhenoBERT). The resulting annotated files are saved in a directory named `phenobert_output` inside `./output`.
 
-### 8️⃣ BERN2 Annotation
+### 8️⃣ [BERN2 Annotation](https://github.com/dmis-lab/BERN2)
 
 If not already done, exit the PhenoBERT directory:
 
