@@ -9,7 +9,7 @@
 
 ---
 
-# CoDietCorpus
+# 🍎 CoDietCorpus
 
 Code repository for the annotation of silver and bronze corpora related to the CoDiet project.
 
@@ -19,7 +19,7 @@ Please note that the Codabench link will be made public once the manuscript is a
 
 ---
 
-## Environment Setup
+## ♻️ Environment Setup
 
 Create and activate the main Conda environment:
 
@@ -32,7 +32,7 @@ pip install pandas numpy openpyxl
 
 ---
 
-## Collect the codebase
+## 🗃️ Collect the codebase
 
 ```bash
 git clone https://github.com/omicsNLP/CoDietCorpus.git
@@ -41,7 +41,7 @@ cd CoDietCorpus
 
 ---
 
-## Download the Data
+## ⬇️ Download the Data
 
 ```bash
 wget https://zenodo.org/records/17610205/files/CoDiet-Gold-private.zip
@@ -50,7 +50,7 @@ unzip ./CoDiet-Gold-private.zip
 
 ---
 
-## Run the Annotation Scripts
+## 🚀 Run the Annotation Scripts
 
 ### 1️⃣ Input Text Processing
 
@@ -303,7 +303,7 @@ Published literature can be subject to copyright with restrictions on redistribu
 
 ---
 
-## Used the following repositories
+## 🌍 Used the following repositories
 
 <div align="center">
 
