@@ -312,7 +312,7 @@ Published literature can be subject to copyright with restrictions on redistribu
 
 | GitHub repository | Paper | 
 |:-----------------:|:-----:|
-| [cadmus](https://github.com/biomedicalinformaticsgroup/cadmus) <a href="https://github.com/biomedicalinformaticsgroup/cadmus"><img src="https://img.shields.io/github/stars/biomedicalinformaticsgroup/cadmus.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a> | n/a |
+| [cadmus](https://github.com/biomedicalinformaticsgroup/cadmus) <a href="https://github.com/biomedicalinformaticsgroup/cadmus"><img src="https://img.shields.io/github/stars/biomedicalinformaticsgroup/cadmus.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a> | [Pre-print](https://doi.org/10.64898/2026.05.16.725623) |
 | [Auto-CORPus](https://github.com/omicsNLP/Auto-CORPus) <a href="https://github.com/omicsNLP/Auto-CORPus"><img src="https://img.shields.io/github/stars/omicsNLP/Auto-CORPus.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a> | [Paper](https://www.frontiersin.org/journals/digital-health/articles/10.3389/fdgth.2022.788124/full) |
 | [BERN2](https://github.com/dmis-lab/BERN2) <a href="https://github.com/dmis-lab/BERN2"><img src="https://img.shields.io/github/stars/dmis-lab/BERN2.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a> | [Paper](https://arxiv.org/abs/2201.02080) |
 | [PhenoBERT](https://github.com/EclipseCN/PhenoBERT) <a href="https://github.com/EclipseCN/PhenoBERT"><img src="https://img.shields.io/github/stars/EclipseCN/PhenoBERT.svg?logo=github&label=Stars" style="vertical-align:middle;"/></a> | [Paper](https://ieeexplore.ieee.org/document/9763337) |
