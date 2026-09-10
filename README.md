@@ -47,8 +47,8 @@ cd CoDietCorpus
 ## ⬇️ Download the Data
 
 ```bash
-wget https://zenodo.org/records/17610205/files/CoDiet-Gold-private.zip
-unzip ./CoDiet-Gold-private.zip
+wget https://zenodo.org/records/22097882/files/CoDiet-Gold-private.zip
+unzip ./CoDiet-Gold-private.zip -d ./CoDiet-Gold-private
 ```
 
 ---
