@@ -3,7 +3,7 @@
 [![DOI:10.5281/zenodo.17305411](http://img.shields.io/badge/data_DOI-10.5281/zenodo.17610205-3382C4.svg)](https://zenodo.org/records/22143409)
 [![DOI:10.5281/zenodo.17305411](http://img.shields.io/badge/data_DOI-10.5281/zenodo.17610205-3382C4.svg)](https://zenodo.org/records/22097882)
 [![Codabench](http://img.shields.io/badge/Codabench-CoDiet_Gold_benchmark-2C3F4C.svg)](https://www.codabench.org/competitions/11676/)
-[![Archived Code DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20643595.svg)](https://doi.org/10.5281/zenodo.20643595)
+[![Archived Code](https://img.shields.io/badge/Archived%20Code-Zenodo-blue)](https://doi.org/10.5281/zenodo.20643595)
 [![CoDiet](https://img.shields.io/badge/%F0%9F%8D%8E_a_CoDiet_study-5AA764)](https://www.codiet.eu)
 <!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17305411.svg)](https://doi.org/10.5281/zenodo.17305411)  
 [//]: # [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17288827.svg)](https://doi.org/10.5281/zenodo.17288827)  
