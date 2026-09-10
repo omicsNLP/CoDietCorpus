@@ -46,9 +46,29 @@ cd CoDietCorpus
 
 ## ⬇️ Download the Data
 
+### Using the pre-processed files (n=46)
+
+If you want to use the already processed files, download and extract the archive:
+
 ```bash
 wget https://zenodo.org/records/22097882/files/CoDiet-Gold-private.zip
 unzip ./CoDiet-Gold-private.zip -d ./CoDiet-Gold-private
+```
+
+### Processing the files yourself (n=50)
+
+If you want to reproduce the processing yourself, clone and install the [CoDietZenodo](https://github.com/omicsNLP/CoDietZenodo/) package, then download the XML files and run the processing script:
+
+```bash
+git clone https://github.com/omicsNLP/CoDietZenodo.git
+pip install ./CoDietZenodo
+
+wget https://zenodo.org/records/22097876/files/CoDiet-Gold-private-XML.zip
+unzip ./CoDiet-Gold-private-XML.zip -d ./CoDiet-Gold-private-XML
+
+python -c "from CoDietZenodo import generate_codiet_gold_private; generate_codiet_gold_private('./CoDiet-Gold-private-XML')"
+
+mv ./CoDiet_Gold_private_bioc ./CoDiet-Gold-private
 ```
 
 ---
